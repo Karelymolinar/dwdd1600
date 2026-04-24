@@ -1,0 +1,128 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+/* header stuff here */
+header {
+    background-color: #a64037;
+    padding: 4rem 250px;
+    text-align: center;
+}
+header span {
+    color: #d9ab73;
+    font-size: 2.3rem;
+    font-weight: 900;
+}
+
+/* navigation stuff here */
+nav {
+    background-color: #a64037;
+}
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #d9ab73;
+    font-weight: 200;
+}
+
+nav li.active a {
+    background-color: #402624;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+
+/* main stuff here */
+main {
+    padding: 1rem 15px;
+    background-color: #f1e9d2;
+}
+
+main h1 {
+    color: #402624;
+    font-weight: 600;
+}
+main h2 {
+    color: #bf7839;
+    margin-bottom: .2rem;
+    font-weight: 500;
+    text-align: center;
+    padding: .2rem 10px;
+}
+main h3 {
+    color: #a64037;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+main p {
+    margin: 0;
+    font-weight: 300;
+}
+main ol {
+    padding: .5rem 15px;
+    font-weight: 500;
+}
+main dl dt {
+    color: #a64037;
+    font-weight: 300;
+    margin-top: .5rem;
+}
+main dl dd {
+    font-size: .9rem;
+    margin-left: 5px;
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main strong {
+    font-weight: 500;
+}
+main em {
+    font-weight: 300;
+}
+main a {
+    color: #8c5535;
+    list-style-type: none;
+}
+main a:hover {
+    color: #d9ab73;
+}
+main address {
+    font-weight: 500;
+    color: #402624;
+    background-color: #d9ab73;
+    padding: .5rem;
+    border-radius: 20px;
+    border: 2px solid #402624;
+    text-align: center;
+}
+/* add footer stuff here */
+footer {
+    background-color: #402624;
+    text-align: center;
+    padding: 1rem 0;
+}
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #d9ab73;
+    letter-spacing: 2px;
+}
